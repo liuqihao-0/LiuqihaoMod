@@ -1,6 +1,6 @@
 # Liuqihaomod
 ## English
-I am no study English!You must 受着的英语不会写!
+I am no study English!You must 受着的英语不会写!You must look Chinese!
 ## 简体中文
 ### 关于mod
 LiuqihaoMod是一个适用于mc26.1+的neoforge模组，加入了一些奇奇怪怪的东西。
