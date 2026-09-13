@@ -1,6 +1,10 @@
 # Liuqihaomod
 ## English
-//劳资不会英语，不服受着！
-//I am no study English!You must 受着英语不会写!
+I am no study English!You must 受着的英语不会写!
 ## 简体中文
-//等会再写！不服受
+### 关于mod
+LiuqihaoMod是一个适用于mc26.1+的neoforge模组，加入了一些奇奇怪怪的东西。
+### 模组版本
+当前仅适用于mc26.1，需使用neoforge版本高于26.1.2.76。
+### 免责声明
+本mod仅按‘原样’提供，作者不对其适用性、合法性与使用风险承担任何责任。
