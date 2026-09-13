@@ -1,4 +1,4 @@
-# Liuqihaomod
+# LiuqihaoMod
 ## English
 I am no study English!You must 受着的英语不会写!You must look Chinese!
 ## 简体中文
