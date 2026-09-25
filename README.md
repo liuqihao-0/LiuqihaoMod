@@ -2,8 +2,7 @@
 
 ## 关于mod
 LiuqihaoMod是一个适用于mc26.1+的neoforge模组，加入了一些奇奇怪怪的东西。
-包括byte、short、int、long、float、double、boolean、char、    及其数组版本。
-**警告：    为危险品，使用后可能导致服务器崩溃。**
+包括byte、short、int、long、float、double、boolean、char、null及其数组版本。
 
 ## 模组版本
 当前Mod适用于mc26.1,需求的neoforge最低版本为:26.1.2.76.  
