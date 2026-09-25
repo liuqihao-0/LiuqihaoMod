@@ -9,7 +9,7 @@ LiuqihaoMod是一个适用于mc26.1+的neoforge模组，加入了一些奇奇怪
 此Mod没有前置Mod。
 
 ## 测试版
-0.0.8.8：
+0.0.8.8：  
 [liuqihao-0.0.8.8test1.zip](https://github.com/user-attachments/files/32655901/liuqihao-0.0.8.8test1.zip)  
 [liuqihao-0.0.8.8test2.zip](https://github.com/user-attachments/files/32659721/liuqihao-0.0.8.8test2.zip)
 
