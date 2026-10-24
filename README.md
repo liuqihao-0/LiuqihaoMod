@@ -6,7 +6,7 @@ LiuqihaoMod是一个适用于mc26.1+的neoforge模组，加入了一些奇奇怪
 
 ## 模组版本
 当前Mod适用于mc26.1,需求的neoforge最低版本为:26.1.2.76.  
-此Mod没有前置Mod。
+此Mod没有前置Mod。  
 **release从0.0 8.8开始将分为两个文件！**
 * 标注"+mc26.1"的适用于mc26.1
 * 标注"+mc26.2"的适用于mc26.2
