@@ -8,8 +8,8 @@ LiuqihaoMod是一个适用于mc26.1+的neoforge模组，加入了一些奇奇怪
 当前Mod适用于mc26.1,需求的neoforge最低版本为:26.1.2.76.  
 此Mod没有前置Mod。
 
-## 传送门
-[26.2](https://github.com/liuqihao-0/LiuqihaoMod/tree/26.2)
+## 关于仓库
+**此仓库的'main'分支不会存放源代码！**
 
 ## 测试版
 测试版下载：  
