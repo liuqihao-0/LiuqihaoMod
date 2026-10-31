@@ -4,4 +4,4 @@
 此处为mod+mc26.2的源代码呢>w<
 
 ## 测试版
-你说26.2的吗？还没有…
+[liuqihao-0.0.8.8experimental1+mc26.2.zip](https://github.com/user-attachments/files/34214928/liuqihao-0.0.8.8experimental1%2Bmc26.2.zip)
