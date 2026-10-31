@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:exposed_copper_apple",
+    "minecraft:honeycomb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:waxed_exposed_copper_apple"
+  }
+}

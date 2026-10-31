@@ -1,0 +1,31 @@
+{
+  "parent": "liuqihao:real_cooked_beef",
+  "criteria": {
+    "fake_cooked_beef": {
+      "conditions": {
+        "item": {
+            "items": "liuqihao:fake_cooked_beef"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.liuqihao.fake_cooked_beef.description"
+    },
+    "icon": {
+      "id": "minecraft:cooked_beef"
+    },
+    "title": {
+      "translate": "advancements.liuqihao.fake_cooked_beef.title"
+    },
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "fake_cooked_beef"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

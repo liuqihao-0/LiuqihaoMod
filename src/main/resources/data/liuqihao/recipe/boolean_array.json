@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean",
+    "liuqihao:boolean"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:boolean_array"
+  }
+}

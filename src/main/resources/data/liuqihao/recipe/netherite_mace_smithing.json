@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "liuqihao:netherite_heavy_core",
+  "base": "liuqihao:diamond_mace",
+  "result": {
+    "id": "liuqihao:netherite_mace"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

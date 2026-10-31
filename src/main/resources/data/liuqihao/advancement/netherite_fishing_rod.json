@@ -1,0 +1,36 @@
+{
+  "parent": "liuqihao:liuqihao",
+  "criteria": {
+    "netherite_fishing_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "liuqihao:netherite_fishing_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.liuqihao.netherite_fishing_rod.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "id": "liuqihao:netherite_fishing_rod"
+    },
+    "title": {
+      "translate": "advancements.liuqihao.netherite_fishing_rod.title"
+    }
+  },
+  "requirements": [
+    [
+      "netherite_fishing_rod"
+    ]
+  ],
+  "rewards": {
+    "experience": 1
+  },
+  "sends_telemetry_event": true
+}

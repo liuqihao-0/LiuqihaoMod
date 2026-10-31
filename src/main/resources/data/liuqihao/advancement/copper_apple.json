@@ -1,0 +1,32 @@
+{
+  "parent": "liuqihao:liuqihao",
+  "criteria": {
+    "copper_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "liuqihao:copper_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.liuqihao.copper_apple.description"
+    },
+    "icon": {
+      "id": "liuqihao:copper_apple"
+    },
+    "title": {
+      "translate": "advancements.liuqihao.copper_apple.title"
+      }
+    },
+  "requirements": [
+    [
+      "copper_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

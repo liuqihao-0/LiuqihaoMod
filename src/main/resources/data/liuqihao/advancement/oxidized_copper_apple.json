@@ -1,0 +1,32 @@
+{
+  "parent": "liuqihao:copper_apple",
+  "criteria": {
+    "oxidized_copper_apple": {
+      "conditions": {
+        "items": [
+          {
+            "items": "liuqihao:oxidized_copper_apple"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.liuqihao.oxidized_copper_apple.description"
+    },
+    "icon": {
+      "id": "liuqihao:oxidized_copper_apple"
+    },
+    "title": {
+      "translate": "advancements.liuqihao.oxidized_copper_apple.title"
+    }
+  },
+  "requirements": [
+    [
+      "oxidized_copper_apple"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

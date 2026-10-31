@@ -1,0 +1,16 @@
+{
+  "values": {
+    "liuqihao:wooden_mace": {
+      "burn_time": 2000
+    },
+    "liuqihao:wooden_block": {
+      "burn_time": 3000
+    },
+    "liuqihao:wooden_heavy_core": {
+      "burn_time": 2000
+    },
+    "liuqihao:bug": {
+      "burn_time": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "liuqihao:wooden_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:oak_planks"
+  }
+}

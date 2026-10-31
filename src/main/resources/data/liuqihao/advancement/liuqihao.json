@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "liuqihao": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancements.liuqihao.liuqihao.description"
+    },
+    "icon": {
+      "id": "liuqihao:glowing_book"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.liuqihao.liuqihao.title"
+    }
+  },
+  "requirements": [
+    [
+      "liuqihao"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+#issueTrackerURL = ""
+license = "MIT License"
+
+[[mods]]
+modId = "liuqihao"
+version = "${version}"
+displayName = "LiuqihaoMod"
+authors = """liuqihao
+liuwenhao"""
+description = "liuqihao"
+#logoFile = ""
+
+[[dependencies.liuqihao]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.2.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.liuqihao]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "liuqihao.mixins.json"

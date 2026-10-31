@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "liuqihao:byte",
+          "conditions": [
+            { "condition": "minecraft:random_chance", "chance": 0.03333 }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "liuqihao:bug",
+          "conditions": [
+            { "condition": "minecraft:random_chance", "chance": 0.000008 }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/silverfish"
+}

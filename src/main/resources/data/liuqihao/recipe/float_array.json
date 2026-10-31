@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float",
+    "liuqihao:float"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:float_array"
+  }
+}
