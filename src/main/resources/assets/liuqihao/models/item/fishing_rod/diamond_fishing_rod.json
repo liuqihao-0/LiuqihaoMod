@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "liuqihao:item/fishing_rod/diamond_fishing_rod"
+  }
+}

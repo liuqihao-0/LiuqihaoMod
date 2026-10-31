@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "liuqihao:item/stick/golden_stick"
+  }
+}
