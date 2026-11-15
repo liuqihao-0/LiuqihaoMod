@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.liuqihaomod.liuqihao.mixin",
+  "package": "com.liuqihao.liuqihaomod.mixin",
   "compatibilityLevel": "JAVA_25",
   "minVersion": "0.8",
   "client": [
