@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double",
+    "liuqihao:double"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:double_array"
+  }
+}

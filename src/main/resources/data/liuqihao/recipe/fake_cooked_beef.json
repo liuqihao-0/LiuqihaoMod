@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:rotten_flesh",
+    "B": "minecraft:poisonous_potato",
+    "C": "minecraft:spider_eye",
+    "D": "minecraft:pufferfish",
+    "X": "minecraft:cooked_beef"
+  },
+  "pattern": [
+    " B ",
+    "CXA",
+    " D "
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:fake_cooked_beef"
+  }
+}

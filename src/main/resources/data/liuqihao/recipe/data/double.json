@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:long",
+    "minecraft:feather"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:double"
+  }
+}

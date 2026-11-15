@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:golden_carrot",
+    "B": "minecraft:cooked_porkchop",
+    "C": "minecraft:cooked_mutton",
+    "D": "minecraft:cooked_chicken",
+    "E": "minecraft:golden_apple",
+    "F": "minecraft:cooked_rabbit",
+    "G": "minecraft:cooked_cod",
+    "H": "minecraft:cooked_salmon",
+    "X": "minecraft:cooked_beef"
+  },
+  "pattern": [
+    "ABC",
+    "HXD",
+    "GFE"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:real_cooked_beef"
+  }
+}

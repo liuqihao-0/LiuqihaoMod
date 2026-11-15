@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:byte",
+    "liuqihao:short",
+    "liuqihao:int",
+    "liuqihao:long",
+    "liuqihao:float",
+    "liuqihao:double",
+    "liuqihao:char",
+    "liuqihao:boolean"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:object"
+  }
+}

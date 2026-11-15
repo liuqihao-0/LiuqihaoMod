@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "liuqihao:netherite_stick",
+  "base": "liuqihao:diamond_fishing_rod",
+  "result": {
+    "id": "liuqihao:netherite_fishing_rod"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

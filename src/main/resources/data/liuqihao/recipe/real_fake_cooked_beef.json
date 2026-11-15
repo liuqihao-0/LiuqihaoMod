@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "liuqihao:real_cooked_beef",
+    "liuqihao:fake_cooked_beef"
+  ],
+  "result": {
+    "count": 1,
+    "id": "liuqihao:real_fake_cooked_beef"
+  }
+}
