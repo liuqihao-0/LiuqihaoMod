@@ -1,1 +1,38 @@
-
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "liuqihao:item/long_stick/long_stick"
+  },
+  "display": {
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 4, 0 ],
+      "scale":[ 1, 1, 0.5 ]
+    },
+    "gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 1.0, 1.0, 1.0 ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [ 0, -90, 55 ],
+      "translation": [ 0, 8.0, 1 ],
+      "scale": [ 1.7, 1.7, 0.85 ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [ 0, 90, -55 ],
+      "translation": [ 0, 8.0, 1 ],
+      "scale": [ 1.7, 1.7, 0.85 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 0, -90, 25 ],
+      "translation": [ 0, 12, 4 ],
+      "scale": [ 1.36, 1.36, 0.68 ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [ 0, 90, -25 ],
+      "translation": [ 0, 12, 4 ],
+      "scale": [ 1.36, 1.36, 0.68 ]
+    }
+  }
+}

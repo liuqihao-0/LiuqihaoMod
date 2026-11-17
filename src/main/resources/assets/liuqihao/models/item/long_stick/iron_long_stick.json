@@ -1,0 +1,6 @@
+{
+  "parent": "liuqihao:item/long_stick/long_stick",
+  "textures": {
+    "layer0": "liuqihao:item/long_stick/iron_long_stick"
+  }
+}
