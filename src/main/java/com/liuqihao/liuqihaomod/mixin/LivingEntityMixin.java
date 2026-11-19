@@ -33,29 +33,30 @@ public abstract class LivingEntityMixin {
         if (damageSource.is(DamageTypeTags.BYPASSES_EFFECTS)) {
             return damage;
         } else {
-            int Amp = 0;
+            float absorb = 1.0F;
             boolean hasResistance = self.hasEffect(MobEffects.RESISTANCE);
             boolean hasNoResistance = self.hasEffect(ModMobEffects.NO_RESISTANCE);
             if ((hasResistance || hasNoResistance) && !damageSource.is(DamageTypeTags.BYPASSES_RESISTANCE)) {
-                int resistAmp = hasResistance ? self.getEffect(MobEffects.RESISTANCE).getAmplifier() + 1 : 0;
-                int downAmp = hasNoResistance ? self.getEffect(ModMobEffects.NO_RESISTANCE).getAmplifier() + 1 : 0;
-                Amp = resistAmp - downAmp;
+                int rAmp = hasResistance ? self.getEffect(MobEffects.RESISTANCE).getAmplifier() + 1 : 0;
+                int dAmp = hasNoResistance ? self.getEffect(ModMobEffects.NO_RESISTANCE).getAmplifier() + 1 : 0;
+                //Amp = resistAmp - downAmp;
+                absorb = 1.0F - 0.2F * rAmp + 0.2F * dAmp;
             }
 
-            float absorb = 1.0F;
-            if (Amp < 0) {
+            
+            /*if (Amp < 0) {
                 absorb = 1.0F - (float)Amp * 0.2F;
             }
 
             if (Amp > 0) {
                 absorb = 1.0F - (float)Amp * 0.1F;
-            }
+            }*/
 
             float oldDamage = damage;
             damage = Math.max(damage * absorb, 0.0F);
             this.damageContainers.peek().setNewDamage(damage);
             float damageResisted = oldDamage - damage;
-            if (0.0F < damageResisted & damageResisted < Float.MAX_VALUE) {
+            if (0.0F < damageResisted && damageResisted < Float.MAX_VALUE) {
                 this.damageContainers.peek().setReduction(Reduction.MOB_EFFECTS, damageResisted);
                 if (self instanceof ServerPlayer) {
                     ((ServerPlayer)self).awardStat(Stats.DAMAGE_RESISTED, Math.round(damageResisted * 10.0F));
