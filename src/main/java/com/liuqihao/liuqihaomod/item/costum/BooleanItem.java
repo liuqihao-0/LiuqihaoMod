@@ -18,23 +18,23 @@ public class BooleanItem extends DataTypeItem {
 
     protected void onUse(ServerLevel level, Player player, InteractionHand hand) {
         if (player.getRandom().nextBoolean()) {
-            player.addEffect(new MobEffectInstance(MobEffects.SPEED, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.HASTE, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.STRENGTH, 6000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.SPEED, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.HASTE, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.STRENGTH, 24000, 3));
             player.addEffect(new MobEffectInstance(MobEffects.INSTANT_HEALTH, 30, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.JUMP_BOOST, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.RESISTANCE, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 6000));
-            player.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 6000));
-            player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 6000));
-            player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 6000, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.SATURATION, 30, 3));
-            player.addEffect(new MobEffectInstance(MobEffects.LUCK, 6000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.JUMP_BOOST, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.RESISTANCE, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 24000));
+            player.addEffect(new MobEffectInstance(MobEffects.WATER_BREATHING, 24000));
+            player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 24000));
+            player.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.ABSORPTION, 24000, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.SATURATION, 400, 3));
+            player.addEffect(new MobEffectInstance(MobEffects.LUCK, 24000, 3));
         } else {
             DamageSource damageSource = new DamageSource((Holder)level.registryAccess().lookupOrThrow(Registries.DAMAGE_TYPE).get(ModDamageType.BOOLEAN_FALSE.identifier()).orElseThrow());
-            player.hurtServer(level, damageSource, Float.MAX_VALUE);
+            player.hurtServer(level, damageSource, 1000000.0F);
         }
 
     }
