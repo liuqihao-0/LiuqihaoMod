@@ -97,6 +97,8 @@
   "liuqihao.configuration.title": "LiuqihaoMod",
   "liuqihao.configuration.section.liuqihao.common.toml.title": "LiuqihaoMod",
   "liuqihao.configuration.section.liuqihao.common.toml": "LiuqihaoMod",
-  "liuqihao.configuration.crash": "Cancel Disable Not-Close Enable Disallow Should-Be-Able Non-Existent Activate §kCrash",
-  "liuqihao.configuration.crash.tooltip": "java.lan§kg.NullPointerExceptio§rn!"
+  "liuqihao.configuration.crash": "Enable Crash",
+  "liuqihao.configuration.crash.tooltip": "java.lan§kg.NullPointerExceptio§rn!",
+  "liuqihao.configuration.crash_message":"Crash Message",
+  "liuqihao.configuration.crash_message.tooltip": ""
 }

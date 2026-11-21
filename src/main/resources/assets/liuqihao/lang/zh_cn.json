@@ -23,7 +23,7 @@
   "block.liuqihao.diamond_heavy_core": "钻石重核",
   "block.liuqihao.netherite_heavy_core": "下界合金重核",
   "death.fell.accident.water":"%1$s 从水中摔了下来",
-  "death.attack.liuqihao.boolean_false": "%1$s手上的布尔值是false",
+  "death.attack.liuqihao.boolean_false": "%1$s手上的布尔值为false",
   "death.attack.liuqihao.boolean_false.player": "%1$s在与%2$s对决时使用了false",
   "itemGroup.liuqihao_item_tab": "Liuqihao",
   "itemGroup.liuqihao_potion_tab": "Liuqihao | 药水",
@@ -95,5 +95,7 @@
   "effect.liuqihao.health_lower": "生命降低",
   "effect.liuqihao.no_resistance": "抗性降低",
   "liuqihao.configuration.crash":  "启用崩溃",
-  "liuqihao.configuration.crash.tooltip": "java.lan§kg.NullPointerExceptio§rn!"
+  "liuqihao.configuration.crash.tooltip": "java.lan§kg.NullPointerExceptio§rn!",
+  "liuqihao.configuration.crash_message":"崩溃信息",
+  "liuqihao.configuration.crash_message.tooltip": "自定义你的崩溃信息。若为空，则使用默认值。"
 }
